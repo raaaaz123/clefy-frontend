@@ -1,1 +1,5 @@
-{ "trailingSlash": true }
+{ "trailingSlash": true,
+  "redirects": [
+    { "source": "/veriwrite", "destination": "/writo/", "permanent": true },
+    { "source": "/veriwrite/:path*", "destination": "/writo/:path*", "permanent": true }
+  ] }
